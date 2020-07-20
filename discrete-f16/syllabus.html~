@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CS 23022 Syllabus</title>
+  <link rel="stylesheet" src="../css/style.css">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <script src="../js/jquery-1.11.3.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>CS:23022 Discrete Structures for CS Fall 2016</h1>
+    <h4>TR 3:45 - 5:00 pm @ SMH 111 </h4>
+
+    <table class="table table-condensed">
+      <tr>
+        <td rowspan="2"></td>
+        <th>Instructor</th>
+        <th>Grader</th>
+      </tr>
+      <tr>
+        <td>Heather M. Michaud</td>
+        <td>Maryam Khotbesara</td>
+      </tr>
+      <tr>
+        <th>Office Hours</th>
+        <td>M 4-5PM, T 2-3PM @ MSB 352, and by appointment</td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Email</th>
+        <td><a href="mailto:hmichaud@kent.edu">hmichaud@kent.edu</a></td>
+        <td></td>
+      </tr>
+    </table>
+
+    <p>
+      This syllabus, and deadlines, are subject to change.
+    </p>
+
+    <h4>Course Description</h4>
+    <p>
+      Discrete Structures for Computer Scientists with a focus on: mathematical reasoning, combinatorial analysis, discrete structures, algorithmic thinking, application and modeling. Specific topics include: logic, sets, functions, relations, algorithms, proof techniques, counting, graphs, trees, Boolean algebra, grammars and languages.
+    </p>
+
+    <h4>Learning Objectives</h4>
+    <p>
+      Students will learn (i) useful mathematics for CS majors, including logic, sets, functions, relations, Boolean algebra, probability; (ii) basics of mathematical reasoning and different proof techniques; (iii) combinatorial analysis and different counting techniques; (iv) discrete structures such as graphs, trees, grammars and languages; their modeling and applications, and develop algorithmic thinking.
+    </p>
+
+    <h4>Prerequisites</h4>
+    <p>
+      Math 11010 and Math 11022 or else alternatives (See Catalog Listing)
+    </p>
+
+    <h4>Text</h4>
+    <img src="img/book.png">
+    <p>
+       Kenneth H. Rosen, Discrete Mathematics and Its Applications, McGraw-Hill, 2012. (<a href="http://highered.mheducation.com/sites/0073383090/information_center_view0/about_the_author.html">Website</a>)
+    </p>
+
+    <h4>Topics</h4>
+
+    <p>
+      Topics will include, in various depth:
+
+      <ul>
+        <li><span class="text-primary">Logic, Sets, and Functions:</span> Logic, Propositional Equivalences, Predicates and Quantifiers, Nested Quantifiers, Methods of proof,  Sets, Set Operations, Functions.
+        </li>
+        <li><span class="text-primary">Mathematical Reasoning, Induction, and Recursion:</span>
+        Art and Strategy of Proof, Sequences and Sums, Mathematical Induction, Recursive Definitions and Structural Definition, Program Correctness.
+        </li>
+        <li><span class="text-primary">Counting:</span>
+        The Basics of Counting, The Pigeonhole Principle, Permutations and Combinations, Binomial Coefficients, Generalized Permutations and Combinations, Generating Permutations and Combinations.
+        </li>
+        <li><span class="text-primary">Discrete Probability:</span>
+        An Introduction to Discrete Probability, Probability Theory, Expected Value and Variance
+        </li>
+        <li><span class="text-primary">Relations:</span>
+        Relations and Their Properties, n-ary Relations and Their Applications, Representing Relations, Closures of Relations, Equivalence Relations, Partial Orderings.
+        </li>
+        <li><span class="text-primary">Graphs:</span>
+        Introduction to Graphs, Graph Terminology, Representing Graphs and Graph Isomorphism, Connectivity, Euler and Hamilton Paths, Shortest Path Problems, Planar Graphs, Graph Coloring.
+        </li>
+        <li><span class="text-primary">Trees:</span>
+        Introduction to Trees, Applications of Trees, Tree Traversal, Spanning Trees, Minimum Spanning Trees.
+        </li>
+        <li><span class="text-primary">Boolean Algebra:</span>
+        Boolean Functions, Representing Boolean Functions, Logic Gates, Minimization of Circuits.
+        </li>
+        <li><span class="text-primary">Modeling Computation:</span>
+        Languages and Grammars, Finite-State Machines, Language Recognition, Turing Machines.
+        </li>
+      </ul>
+    </p>
+
+    <h4>Course Requirements</h4>
+    <table class="table table-condensed">
+      <tr>
+        <td>Participation</td>
+        <td>10%</td>
+      </tr>
+      <tr>
+        <td>Homework</td>
+        <td>25%</td>
+      </tr>
+      <tr>
+        <td>Exam #1 (tentatively Thursday, Oct. 6th)</td>
+        <td>20%</td>
+      </tr>
+      <tr>
+        <td>Exam #2 (tentatively Thursday, Nov. 3rd)</td>
+        <td>20%</td>
+      </tr>
+      <tr>
+        <td>Exam #3 - Final (Tuesday, Dec. 13th, 7:45AM - 10AM)</td>
+        <td>25%</td>
+      </tr>
+      <tr>
+        <td>Extra Credit Problems</td>
+        <td>2-5%</td>
+      </tr>
+    </table>
+    <p>
+      Homework is very important. It is expected that most of your learning will come from the process of solving the homework problems. Exams will in large part be based on the homework.
+    </p>
+<p> Final Grading Scale is as follows.
+<table class="table table-condensed">
+    <tr>
+      <td>Scale:</td>
+      <td>0%</td>
+      <td>60%</td>
+      <td>67%</td>
+      <td>70%</td>
+      <td>73%</td>
+      <td>77%</td>
+      <td>80%</td>
+      <td>83%</td>
+      <td>87%</td>
+      <td>90%</td>
+      <td>93%</td>
+    </tr>
+    <tr>
+      <td>Grade:</td>
+      <td>F</td>
+      <td>D</td>
+      <td>D+</td>
+      <td>C-</td>
+      <td>C</td>
+      <td>C+</td>
+      <td>B-</td>
+      <td>B</td>
+      <td>B+</td>
+      <td>A-</td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>GPA:</td>
+      <td>0.00</td>
+      <td>1.00</td>
+      <td>1.30</td>
+      <td>1.70</td>
+      <td>2.00</td>
+      <td>2.30</td>
+      <td>2.70</td>
+      <td>3.00</td>
+      <td>3.30</td>
+      <td>3.70</td>
+      <td>4.00</td>
+    </tr>
+</table>
+</p>
+
+  <h4>Milestones for successful completion of the course</h4>
+  <ul>
+    <li>Attend the classes regularly</li>
+    <li>Perform the homework thoroughly and independently</li>
+    <li>Read the book carefully and several times</li>
+    <li>Ask questions</li>
+    <li>Check the course website frequently for important deadlines</li>
+  </ul>
+
+  <h4>Make-up and Late policy</h4>
+  <p>
+    Attendance is a course requirement. Missed tests, homework, and attendance are only excused if absence was essential and can be fully documented. Homework must be turned in by the end of class on due date, either typed and printed or hand-written. Unexcused late homework is not accepted. Class extensions on homework will be announced in class. They may also be announced by email and at the course website.
+  </p>
+
+  <h4>Homework and Collaboration</h4>
+  <p>
+    You will need to devote a considerable amount of time to homework. You may discuss the homework with other students, but you must write your solutions independently.  Study groups should limit their size to 2-3 so that each collaborator can participate in solution. If you obtain a solution to a homework problem through research (e.g., from books or journals), you are expected to acknowledge your sources in your writeup and also to write up your solution independently.
+  </p>
+
+  <h4>Registration Requirement</h4>
+  <p>
+    The official registration deadline for this course is <span class="text-danger">Sunday, Sept. 4th.</span> University policy requires all students to be officially registered in each class they are attending. Students who are not officially registered for a course by published deadlines should not be attending classes and will not receive credit or a grade for the course. Each student must confirm enrollment by checking his/her class schedule (using Student Tools in FlashFast) prior to the deadline indicated. Registration errors must be corrected prior to the deadline. The last day to withdraw is <span class="text-danger">Sunday, Sept. 11</span>.
+  </p>
+
+  <h4>Student Accessibility Policy</h4>
+  <p>
+    University Policy 3342-3-01.3 requires that students with disabilities be provided reasonable accommodations to ensure their equal access to course content. If you have a documented disability and require accommodations, please contact the instructor at the beginning of the semester to make arrangements for necessary classroom adjustments. Please note, you must first verify your eligibility for these through Student Accessibility Services (contact 330-672-3391 or visit <a href="www.kent.edu/sas">www.kent.edu/sas</a> for more information on registration procedures).
+  </p>
+
+  <h4>STUDENT CHEATING AND PLAGIARISM</h4>
+  <p>
+    This is a condensed version. For the complete policy and procedure, view the <a href="https://www.kent.edu/policyreg/administrative-policy-regarding-student-cheating-and-plagiarism">administrative policy</a>.
+  </p>
+  <p>
+    Cheating and plagiarism constitute fraudulent misrepresentation for which no credit can be given and for which appropriate sanctions are warranted and will be applied. The university affirms that acts of cheating and plagiarism by students constitute a subversion of the goals of the institution, have no place in the university and are serious offenses to academic goals and objectives, as well as to the rights of fellow students.
+  </p>
+
+  <p>
+    <span class="text-warning">"Cheat" means to intentionally misrepresent the source, nature, or other conditions of academic work so as to accrue undeserved credit, or to cooperate with someone else in such misrepresentation. Cheating includes, but is not limited to:</span>
+    <ul>
+      <li>Obtaining or retaining partial or whole copies of examinations, tests or quizzes before these are distributed for student use; </li>
+      <li>Using notes, textbooks or other information in examinations, tests and quizzes, except as expressly permitted; </li>
+      <li>Obtaining confidential information about examinations, tests or quizzes other than that released by the instructor; </li>
+      <li>Securing, giving or exchanging information during examinations; </li>
+      <li>Presenting data or other material gathered by another person or group as one's own; </li>
+      <li>Falsifying experimental data or information; </li>
+      <li>Having another person take one's place for any academic performance without the specific knowledge and permission of the instructor; </li>
+      <li>Cooperating with another to do one or more of the above; </li>
+      <li>Using a substantial portion of a piece of work previously submitted for another course or program to meet the requirements of the present course or program without notifying the instructor to whom the work is presented; and </li>
+      <li>Presenting falsified information in order to postpone or avoid examinations, tests, quizzes, or other academic work. </li>
+    </ul>
+  </p>
+
+  <p>
+    <span class="text-warning">`Plagiarize` means to take and present as one`s own a material portion of the ideas or words of another or to present as one`s own an idea or work derived from an existing source without full and proper credit to the source of the ideas, words, or works. As defined, plagiarize includes, but is not limited to:</span>
+
+    <ul>
+      <li>The copying of words, sentences and paragraphs directly from the work of another without proper credit;</li>
+      <li>The copying of illustrations, figures, photographs, drawings, models, or other visual and nonverbal materials, including recordings of another without proper credit; and</li>
+      <li>The presentation of work prepared by another in final or draft form as one's own without citing the source, such as the use of purchased research papers.</li>
+    </ul>
+  </p>
+
+  <p>
+    <span class="text-info">Academic Sanctions (from Section D).</span> The following academic sanctions are provided by this rule for offenses of cheating or plagiarism. Kent campus instructors shall notify the department chairperson and the student conduct office each time a sanction is imposed. Regional campus instructors shall notify the regional campus dean and the student conduct officer each time a sanction is imposed. Regional campus student conduct officer shall notify the Kent student conduct office each time a sanction is imposed by a regional campus Instructor. The following academic sanctions are provided by this rule for offenses of cheating or plagiarism. In those cases the instructor may:
+
+    <ul>
+      <li>Refuse to accept the work for credit; or</li>
+      <li>Assign a grade of "F" or zero for the project, test, paper, examination or other work in which the cheating or plagiarism took place; or</li>
+      <li>Assign a grade of "F" for the course in which the cheating or plagiarism took place; and/or;</li>
+      <li>Recommend to the department chair or regional campus dean that further action specified in the rule be taken. The department chairperson or regional campus dean shall determine whether or not to forward to the academic dean or to the vice president for the extended university a recommendation for further sanction under this rule.</li>
+    </ul>
+  </p>
+
+  <p>
+    <span class="text-info">Procedures for invoking sanctions (from Section E). </span>
+
+    Academic administrative procedures pertaining to paragraph (D)(1)(a) of this rule. In the event that an instructor determines that it is more probable than not that a student in a course or program under the instructor's supervision has presented work for university credit which involves an act of cheating, plagiarism or cooperation in either, then the instructor shall:
+
+    <ul>
+      <li>Inform the student as soon as is practical, in person or by mail, of the belief that an act of cheating or plagiarism has occurred. If the student cannot be reached in a reasonable period of time, the instructor may proceed with sanctions, notifying the student in writing as promptly as possible of the belief and the procedural steps the instructor has taken.</li>
+      <li><span class="info-text">Provide the student an opportunity to explain orally, in writing, or both, why the student believes the evaluation of the facts is erroneous.</span></li>
+      <li>If the explanation is deemed by the instructor to be inadequate or if no explanation is offered, the instructor may impose one of the academic sanctions listed in paragraph (D)(1)(a) of this rule. Where appropriate, the instructor may recommend the imposition of academic sanctions listed in paragraph (D)(1)(b) of this rule. In addition, the instructor may refer the matter to the dean of the college, campus, or school in which the student is enrolled for imposition of academic sanctions listed in paragraph (D)(1)(b) of this rule.</li>
+      <li>The instructor shall notify the office of judicial affairs of the circumstances and action taken. Such notification will be used as background information in the event that formal conduct charges are initiated against the student.</li>
+      <li>The instructor shall inform the student in writing of the right to appeal, and the procedure to follow.</li>
+      <li>The instructor shall keep the evidence of cheating or plagiarism in a secure place and provide it upon request to any appeals officer or the conduct officer. The instructor shall provide copies on request to the student at the student's expense.</li>
+      <li>The instructor shall cooperate with academic and student conduct personnel in any appeal of the decision, and/or in adjudication of any disciplinary proceedings.</li>
+    </ul>
+  </p>
+</br>
+
+
+
+  </div>
+</body>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-71001604-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</html>

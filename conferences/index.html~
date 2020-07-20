@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Algorithms Conferences</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+   <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+  
+
+<div class="container-fluid">
+  <!-- <p>A maintained list of upcoming and past conferences, considering: STOC, FOCS, STACS, SODA, ESA, WADS, SWAT, ISAAC, WG, LAGOS, COCOON, CIAC, SPAA.
+  </p>
+-->
+
+  <h3>Conferences in 2020</h3>
+    <table class="table table-responsive table-striped">
+    <thead>
+      <tr>
+        <th>Event</th>
+        <th>Name</th>
+        <th>Location</th>
+        <th>Conference Dates</th>
+        <th>Submission Deadline</th>
+        <th>Notification</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td>STACS 2020</a></td>
+        <td>37th International Symposium on Theoretical Aspects of Computer Science</td>
+        <td>France</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="http://acm-stoc.org/stoc2020/">STOC 2020</a></td>
+        <td>52nd Annual ACM Symposium on Theory of Computing</td>
+        <td>Chicago, IL, USA</td>
+        <td>June 22-26, 2020</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.siam.org/Conferences/CM/Main/soda20">SODA 2020</a></td>
+        <td>ACM-SIAM Symposium on Discrete Algorithms</td>
+        <td>Salt Lake City, Utah, USA</td>
+        <td>January 5-8, 2020</td>
+        <td>July 5, 2019</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>COCOON 2020</td>
+        <td>26th International Computing and Combinatorics Conference</td>
+        <td>South Korea</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="http://esa-symposium.org/">ESA 2020</a></td>
+        <td>28th Annual European Symposium on Algorithms</td>
+        <td>Pisa, Italy</td>
+        <td>September 7-11, 2020</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>WG 2020</td>
+        <td>46th International Workshop on Graph-Theoretic Concepts in Computer Science</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>FOCS 2020</td>
+        <td>60th Annual Symposium on Foundations of Computer Science</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>SWAT 2020</td>
+        <td>Scandinavium Symposium and Workshop on Algorithms Theory</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h3>Conferences in 2019</h3>
+
+  <table class="table table-responsive table-striped">
+    <thead>
+      <tr>
+        <th>Event</th>
+        <th>Name</th>
+        <th>Location</th>
+        <th>Conference Dates</th>
+        <th>Submission Deadline</th>
+        <th>Notification</th>
+      </tr>
+    </thead>
+    <tbody>
+  <tr>
+        <td><a href="http://itcs.shufe.edu.cn/isaac2019/">ISAAC 2019</a></td>
+        <td>30th International Symposium on Algorithms and Computation</td>
+        <td>Shanghai, China</td>
+        <td>December 8-11, 2019</td>
+        <td>June 30, 2019</td>
+        <td>August 31, 2019</td>
+      </tr>
+      <tr>
+        <td><a href="http://easyconferences.eu/ciac2019/">CIAC 2019</a></td>
+        <td>11th International Conference on Algorithms and Complexity</td>
+        <td>Rome, Italy</td>
+        <td>May 27-29, 2019</td>
+        <td>October 31, 2018</td>
+        <td>December 21, 2018</td>
+      </tr>
+      <tr>
+        <td><a href="https://stacs2019.akt.tu-berlin.de/">STACS 2019</a></td>
+        <td>36th International Symposium on Theoretical Aspects of Computer Science</td>
+        <td>Berlin, Germany</td>
+        <td>March 13-16, 2019</td>
+        <td>October 1, 2018</td>
+        <td>December 20, 2018</td>
+      </tr>
+      <tr>
+        <td><a href="http://www.lagos2019.dcc.ufmg.br">LAGOS 2019</a></td>
+        <td>Latin and American Algorithms, Graph and Optimization Symposium</td>
+        <td>Belo Horizonte</td>
+        <td>June 2-7, 2019</td>
+        <td>November 11, 2018</td>
+        <td>February 15, 2019</td>
+      </tr>
+      <tr>
+        <td><a href="http://acm-stoc.org/stoc2019/">STOC 2019</a></td>
+        <td>51st Symposium on the Theory of Computing</td>
+        <td>Phoenix, Arizona</td>
+        <td>June 23-26, 2019</td>
+        <td>November 2, 2018</td>
+        <td>February 11, 2019</td>
+      </tr>
+      <tr>
+        <td><a href="https://www.siam.org/Conferences/CM/Main/soda19">SODA 2019</a></td>
+        <td>ACM-SIAM Symposium on Discrete Algorithms</td>
+        <td>San Diego, California</td>
+        <td>January 6-9, 2019</td>
+        <td>July 5, 2018</td>
+        <td>October 2018</td>
+      </tr>
+      <tr>
+        <td><a href="http://ictt.xidian.edu.cn/COCOON2019/index.html">COCOON 2019</a></td>
+        <td>25th International Computing and Combinatorics Conference</td>
+        <td>Xian, China</td>
+        <td>July 29-31, 2019</td>
+        <td>March 19, 2019</td>
+        <td>May 22, 2019</td>
+      </tr>
+      <tr>
+        <td><a href="http://esa-symposium.org/">ESA 2019</a></td>
+        <td>27th European Symposia on Algorithms</td>
+        <td>Munich/Garching, Germany</td>
+        <td>September 10-14, 2019</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="http://www.wads.org">WADS 2019</a></td>
+        <td>Algorithms and Data Structures Symposium (formerly Workshop on Algorithms and Data Structures)</td>
+        <td>University of Alberta, Edmonton, Canada</td>
+        <td>August 5-7, 2019</td>
+        <td>February 20, 2019</td>
+        <td>April 13, 2019</td>
+      </tr>
+      <tr>
+        <td><a href="http://wg2019.sau.thilikos.info/">WG 2019</a></td>
+        <td>45th International Workshop on Graph-Theoretic Concepts in Computer Science</td>
+        <td>Vall de Nuria, Catalonia, Spain</td>
+        <td>June 19-21, 2019</td>
+        <td>February 19, 2019</td>
+        <td>April 19, 2019</td>
+      </tr>
+      <tr>
+        <td><a href="https://spaa.acm.org/2019/">SPAA 2019</a></td>
+        <td>ACM Symposium on Parallelism in Algorithms and Architectures</td>
+        <td>Pheonix, Arizona, USA</td>
+        <td>June 22-24, 2019</td>
+        <td>January 8, 2019</td>
+        <td>March 11, 2019</td>
+      </tr>
+      <tr>
+        <td><a href="http://focs2019.cs.jhu.edu">FOCS 2019</a></td>
+        <td>60th Annual IEEE Symposium on Foundations of Computer Science</td>
+        <td>Baltimore, Maryland, USA</td>
+        <td>November 9-12, 2019</td>
+        <td>April 5, 2019</td>
+        <td>July 1, 2019</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Conferences in 2018</h3>
+  <table class="table table-responsive table-striped">
+    <thead>
+      <tr>
+        <th>Event</th>
+        <th>Name</th>
+        <th>Location</th>
+        <th>Conference Dates</th>
+        <th>Submission Deadline</th>
+        <th>Notification</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="http://acm-stoc.org/stoc2018/">STOC 2018</td>
+        <td>50th Annual ACM Symposium on the Theory of Computing</td>
+        <td>Los Angeles, California</td>
+        <td>June 25-29, 2018</td>
+        <td>November 3, 2017</td>
+        <td>February 9, 2018</td>
+      </tr>
+      <tr>
+        <td><a href="https://stacs2018.sciencesconf.org/">STACS 2018</td>
+        <td>35th International Symposium on Theoretical Aspects of Computer Science</td>
+        <td>Caen, France</td>
+        <td>February 28 - March 3, 2018</td>
+        <td>September 25, 2017</td>
+        <td>December 11, 2017</td>
+      </tr>
+      <tr>
+        <td><a href="https://archive.siam.org/meetings/da18/">SODA 2018</td>
+        <td>ACM-SIAM Symposium on Discrete Algorithms</td>
+        <td>New Orleans, Louisiana</td>
+        <td>January 7-10, 2018</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="http://algo2018.hiit.fi/esa/">ESA 2018</td>
+        <td>26th Annual European Symposium on Algorithms</td>
+        <td>Helsinki, Finland</td>
+        <td>August 20-22, 2018</td>
+        <td>April 22, 2018</td>
+        <td>June 18, 2018</td>
+      </tr>
+      <tr>
+        <td><a href="http://hjemmesider.diku.dk/~mthorup/FOCS18/FOCS18-cfp.htm">FOCS 2018</td>
+        <td>59th Annual IEEE Symposium on Foundations of Computer Science </td>
+        <td>Paris, France</td>
+        <td>October 7-9, 2018</td>
+        <td>April 6, 2018</td>
+        <td>July 1, 2018</td>
+      </tr>
+      <tr>
+        <td><a href="http://csconferences.mah.se/swat2018/">SWAT 2018</a></td>
+        <td>Scandinavium Symposium and Workshop on Algorithms Theory</td>
+        <td>Malmo</td>
+        <td>June 18-20, 2018</td>
+        <td>February 18, 2018</td>
+        <td>April 9, 2018</td>
+      </tr>
+      <tr>
+        <td><a href="http://isaac2018.ie.nthu.edu.tw/">ISAAC 2018</a></td>
+        <td>International Symposium on Algorithms and Computation</td>
+        <td>Jiaoxi, Yilan County, Taiwan</td>
+        <td>December 16-19, 2018</td>
+        <td>June 29, 2018</td>
+        <td>August 31, 2018</td>
+      </tr>
+      <tr>
+        <td><a href="https://www.wg2018.b-tu.de/">WG 2018</a></td>
+        <td>44th International Workshop on Graph-Theoretic Concepts in Computer Science</td>
+        <td>Cottbus, Germany</td>
+        <td>June 27-29, 2018</td>
+        <td>February 26, 2018</td>
+        <td>April 23, 2018</td>
+      </tr>
+      <tr>
+        <td><a href="http://cocoon2018.sdu.edu.cn/call.html">COCOON 2018</a></td>
+        <td>24th International Computing and Combinatorics Conference</td>
+        <td>Qingdao, China</td>
+        <td>July 2-4, 2018</td>
+        <td>February 20, 2018</td>
+        <td>April 25, 2018</td>
+      </tr>
+    </tbody>
+  </table>
+
+<!--
+  <h3>Conferences in 2017</h3>
+  <table class="table table-responsive table-striped">
+    <thead>
+      <tr>
+        <th>Event</th>
+        <th>Name</th>
+        <th>Location</th>
+        <th>Conference Dates</th>
+        <th>Submission Deadline</th>
+        <th>Notification</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td><a href="http://wads.org/">WADS 2017</a></td>
+        <td>Workshop on Algorithms and Data Structures</td>
+        <td>St. John's, Canada</td>
+        <td>July 31 - August 2, 2017</td>
+        <td></td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
+-->
+
+</div>
+
+<footer class="page-footer font-small text-center">
+  <div>Math and Science Building 352 | Kent State University</div>
+  <div><i class="fa fa-phone" aria-hidden="true"></i> (330)-672-9106</div>
+  
+  <div class="footer-copyright text-center py-3" style="margin-top: 1em">&copy; 2017<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>:
+  Algorithmic Research Lab
+  </div>
+</footer>
+
+</body>
+</html>

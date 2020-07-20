@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CS 4/56101 Design and Analysis of Algorithms</title>
+  <link rel="stylesheet" src="../css/style.css">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <script src="../js/jquery-1.11.3.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <h1>CS:4/56101 Design and Analysis of Algorithms - Fall 2017</h1>
+    <p>
+      TR 3:45 - 5:00 pm @ SMH 110 </br>
+      Office Hours: TR 2:30 - 3:30 @ MSB 352
+    </p>
+
+    <p class="alert alert-success">In addition to my normal office hours, I will hold extended office hours on Friday 12/8 from 12-2PM in MSB 352</p>
+
+    <p>
+      This schedule is not final. It may change.
+    </p>
+
+    <div class="row border-between">
+      <div class="col-sm-8" style="padding-right:20px; border-right: 1px solid #ccc;">
+        <table class="table table-condensed">
+        </tr>
+          <tr>
+            <th>Topics</th>
+            <th>Subtopics &amp; Slides</th>
+	    <th>Reading</th>
+            <th>Date</th>
+          </tr>
+          <tr>
+            <td rowspan="2">Introduction</td>
+            <td><a href="syllabus.html">Syllabus</a></td>
+          </tr>
+          <tr>
+            <td><a href="slides/ch0-Introduction.pdf">Intro</a></td>
+	    <td></td>
+	    <td>8/29</td>
+          </tr>
+          <tr>
+            <td rowspan="1">Ch 1: Algorithm Analysis</td>
+            <td><a href="slides/ch1-Analysis.pdf">Analysis of Algorithms</a></td>
+						<td>1.1, 1.2, 1.3, 1.4</td>
+						<td>8/29, 8/31</td>
+          </tr>
+
+          <tr>
+            <td rowspan="3">Ch 2: Basic Data Structures</td>
+            <td><a href="slides/ch2-ElementaryDataStructures.pdf">Elementary Data Structures</a></td>
+            <td>1.5, 2.1, 2.2, 2.3</td>
+						<td>8/31, 9/5, 9/7</td>
+          </tr>
+
+          <tr>
+            <td><a href="slides/ch2-PriorityQueuesAndHeaps.pdf">Priority Queues and Heaps</a></td>
+            <td>2.4.1 - 2.4.4</td>
+						<td>9/12, 9/14</td>
+          </tr>
+					<tr>
+						<td><a href="slides/ch2-DictionariesAndHashTables.pdf">Dictionaries and Hash Tables</a></td>
+						<td>2.5.1 - 2.5.6</td>
+						<td>9/14, 9/19</td>
+					</tr>
+
+					<tr>
+            <td rowspan="2">Ch 3: Search Trees and Skip Lists</td>
+            <td><a href="slides/ch3-binarySearchTrees.pdf">Binary Search Trees</a></td>
+            <td>3.1.1 - 3.1.6</td>
+						<td>9/21</td>
+          </tr>
+          <tr>
+            <td><a href="slides/ch3-redBlackTrees.pdf">Red-Black Trees</a></td>
+            <td>3.3.3</td>
+						<td>9/26</td>
+          </tr>
+
+					<tr>
+            <td rowspan="6">Ch 4: Sorting, Sets, and Selection</td>
+            <td><a href="slides/ch4-mergeSort.pdf">Merge Sort</a></td>
+            <td>4.1.1</td>
+						<td>9/28</td>
+          </tr>
+          <tr>
+            <td><a href="slides/ch4-quickSort.pdf">Quick Sort</a></td>
+            <td>4.3.1, 4.6</td>
+						<td>10/3</td>
+          </tr>
+					<tr>
+						<td><a href="slides/ch4-sortingLowerBound.pdf">Sorting Lower Bound</a></td>
+						<td>4.4</td>
+						<td>10/5</td>
+					</tr>
+					<tr>
+						<td><a href="slides/ch4-sets.pdf">Sets</a></td>
+						<td>4.2.1</td>
+						<td>10/5</td>
+					</tr>
+					<tr>
+						<td><a href="slides/ch4-radixSort.pdf">Radix Sort</a></td>
+						<td>4.5.1, 4.5.2</td>
+						<td>10/10</td>
+					</tr>
+					<tr>
+						<td><a href="slides/ch4-selection.pdf">Selection</a></td>
+						<td>4.7, 4.7.1 - 4.7.3</td>
+						<td>--, 10/17</td>
+					</tr>
+
+					<tr>
+						<td rowspan="3">Ch 5: Fundamental Techniques</td>
+						<td><a href="slides/ch5-greedyMethod.pdf">Greedy Method</a></td>
+						<td>5.1, 5.1.1, 5.1.2</td>
+						<td>10/24</td>
+					</tr>
+					<tr>
+						<td><a href="slides/ch5-divideAndConquer.pdf">Divide and Conquer</a></td>
+						<td>5.2, 5.2.1 - 5.2.3</td>
+						<td>10/31, 11/2</td>
+					</tr>
+					<tr>
+						<td><a href="slides/ch5-dynamicProgramming.pdf">Dynamic Programming</a></td>
+						<td>5.3, 5.3.1 - 5.3.3</td>
+						<td>11/2, 11/7</td>
+					</tr>
+
+					<tr>
+						<td rowspan="5">Ch 6: Graphs</td>
+						<td><a href="slides/ch6-graphs.pdf">Graphs</a></td>
+						<td>6.1 - 6.2</td>
+						<td>11/9</td>
+					</tr>
+					<tr>
+						<td><a href="slides/ch6-dfs.pdf">Depth-First Search</a></td>
+						<td>6.3.1</td>
+						<td>11/14</td>
+					</tr>
+					<tr>
+						<td><a href="slides/ch6-bfs.pdf">Breadth-First Search</a></td>
+						<td>6.3.3</td>
+						<td>11/16</td>
+					</tr>
+					<tr>
+						<td><a href="slides/ch6-biconnectivity.pdf">Biconnectivity</a></td>
+						<td>6.3.2</td>
+						<td>11/16</td>
+					</tr>
+					<tr>
+						<td><a href="slides/ch6-digraphs.pdf">Directed Graphs</a></td>
+						<td>6.4.1, 6.4.2, 6.4.4</td>
+						<td>11/21</td>
+					</tr>
+
+
+					<tr>
+						<td rowspan="2">Ch 7: Weighted Graphs</td>
+						<td><a href="slides/ch7-shortestPaths.pdf">Shortest Paths</a></td>
+						<td>7.1, 7.1.1 - 7.1.3, 7.2, 7.2.1</td>
+						<td>11/28</td>
+					</tr>
+					<tr>
+						<td><a href="slides/ch7-mst.pdf">Minimum Spanning Tree</a></td>
+						<td>7.3, 7.3.1 - 7.3.3</td>
+						<td>11/30</td>
+					</tr>
+
+
+					<tr>
+						<td rowspan="1">Ch 8: Network Flow and Matching</td>
+						<td><a href="slides/ch8-maxFlow.pdf">Network Flow</a></td>
+						<td>8.1.1, 8.1.2, 8.2.1 - 8.2.3</td>
+						<td>12/4</td>
+					</tr>
+
+
+					<tr>
+						<td rowspan="1">Ch 9: Text Processing</td>
+						<td>Pattern Matching</td>
+						<td>9.1.1 - 9.1.4</td>
+						<td></td>
+					</tr>
+
+        </table>
+      </div>
+
+
+      <div class="col-sm-4">
+
+        <h3>Homework</h3>
+
+        <ul>
+          <li><a href="hw/hw1.pdf">Homework #1</a> distributed Tue 9/5; due Thu 9/14</li>         
+	  <li><a href="hw/hw2.pdf">Homework #2</a> distributed Thu 9/14; due Tue 9/26</li>
+          <li><a href="hw/hw3.pdf">Homework #3</a> distributed Tue 9/26; due Thu 10/5</li>
+          <li><a href="hw/hw4.pdf">Homework #4</a> distributed Thu 10/5; due Tue 10/17</li>
+          <li><a href="hw/hw5.pdf">Homework #5</a> distributed Tue 10/31; due Tue 11/14</li>
+          <li><a href="hw/hw6.pdf">Homework #6</a> distributed Tue 11/14; due Thur 11/30</li>
+          <li><a href="hw/hw7.pdf">Homework #7</a> distributed Tue 11/28; due Thur 12/7</li>
+        </ul>
+
+
+
+        <h3>Exams</h3>
+        <ol>
+          <li>
+            <b>Midterm Exam</b> (<a href="midterm-info.pdf">info</a>) (<a href="midterm-overview.pdf">overview</a>)<br/>
+						Thurs Oct. 26, during class <br/>
+	    Topics include chapters 1-4.
+            <br/><br/>
+          </li>
+          <li>
+						<b>Final Exam</b> (<a href="final-info.pdf">info</a>) (<a href="final-overview.pdf">overview</a>)<br/>
+						Wednesday, Dec. 13th @ 7:45-10:00am </br>
+						Topics include chapters 5-8.
+						<br/><br/>
+          </li>
+        </ol>
+
+	<h3>Piazza</h3>
+<p>
+        Sign up for <a href="http://www.piazza.com/kent/fall2017/cs456101">Piazza</a>, a Q&amp;A web service
+        where you can ask and answer questions related to the class.
+</p>
+
+<h3>Demos and Visualizations</h3>
+<ul>
+<li><a href="https://www.cs.usfca.edu/~galles/visualization/Heap.html">Heap</a></li>
+<li><a href="https://www.cs.usfca.edu/~galles/visualization/OpenHash.html">Hash Table (Chaining)</a></li>
+<li><a href="https://www.cs.usfca.edu/~galles/visualization/ClosedHash.html">Hash Table (Open Addressing)</a></li>
+<li><a href="https://www.cs.usfca.edu/~galles/visualization/RedBlack.html">Red-Black Tree</a></li>
+<li><a href="http://algoanim.ide.sk/index.php?page=showanim&id=75">Merging sorted sequences</a> and the full <a href="http://algoanim.ide.sk/index.php?page=showanim&id=72">Merge-Sort</a></li>
+<li><a href="https://www.toptal.com/developers/sorting-algorithms">Sorting Algorithms</a></li>
+</ul>
+
+<!--
+        <h3>Tutoring</h3>
+        <p>
+          MW in MSB 243</br>
+          Gilson Dos Santos, 5:30-8:30PM <br/>
+          David Carlyn, 7:00-10:00PM
+        </p>
+-->
+      </div>
+    </div>
+
+
+    <address>Heather M. Guarnera / <a href="mailto:hmichaud@kent.edu">hmichaud@kent.edu</a> </address>
+  </div>
+</body>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-71001604-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</html>

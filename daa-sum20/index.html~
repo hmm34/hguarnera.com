@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CS 4/56101 Design and Analysis of Algorithms</title>
+  <link rel="stylesheet" src="../css/style.css">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <script src="../js/jquery-1.11.3.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <h1>CS:4/56101 Design and Analysis of Algorithms - Fall 2019</h1>
+    <p>
+    <b>Class meeting time:</b> TR 3:45 - 5:00pm  @ SMH 108</br>
+    <b>Office hours:</b> TR 1:30-3:30pm @ MSB 352, and by appointment
+  </p>
+<p class="alert alert-success">Office hours during finals week: Tues 12pm-2pm; Thurs 1:30pm-3:30pm, and by appointment.</p>
+
+  <p>
+    This schedule is not final. It may change.
+  </p>
+
+  <div class="row border-between">
+    <div class="col-sm-8" style="padding-right:20px; border-right: 1px solid #ccc;">
+      <table class="table table-condensed">
+      </tr>
+      <tr>
+        <th>Topics</th>
+        <th>Subtopics &amp; Slides</th>
+	<th>Examples</th>
+        <th>Reading</th>
+        <th>Date</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Introduction</td>
+        <td><a href="syllabus.html">Syllabus</a></td>
+        <td></td>
+	<td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="slides/ch0-Introduction.pdf">Intro</a></td>
+        <td></td>
+        <td></td>
+        <td>8/22</td>
+      </tr>
+      <tr>
+        <td rowspan="1">Ch 1: Algorithm Analysis</td>
+        <td><a href="slides/ch1-Analysis.pdf">Analysis of Algorithms</a></td>
+        <td></td>
+        <td>1.1, 1.2, 1.3, 1.4</td>
+        <td>8/22; 8/27</td>
+      </tr>
+
+      <tr>
+        <td rowspan="3">Ch 2: Basic Data Structures</td>
+        <td><a href="slides/ch2-ElementaryDataStructures.pdf">Elementary Data Structures</a></td>
+        <td></td>
+        <td>1.5, 2.1, 2.2, 2.3</td>
+        <td>8/27; 8/29; 9/3</td>
+      </tr>
+
+      <tr>
+        <td><a href="slides/ch2-PriorityQueuesAndHeaps.pdf">Priority Queues and Heaps</a></td>
+        <td><a href="examples/heap-insert.pdf">heap insert</a>, <a href="examples/heap-removeMin.pdf">heap removeMin</a></td>
+        <td>2.4.1 - 2.4.4</td>
+        <td>9/3; 9/5</td>
+      </tr>
+      <tr>
+        <td><a href="slides/ch2-DictionariesAndHashTables.pdf">Dictionaries and Hash Tables</a></td>
+        <td><a href="examples/hashtable-chaining.pdf">chaining</a>, <a href="examples/hashtable-linear-probing.pdf">linear probing</a>, <a href="examples/hashtable-double-hashing.pdf">double hashing</a></td>
+        <td>2.5.1 - 2.5.6</td>
+        <td>9/10; 9/12</td>
+      </tr>
+
+      <tr>
+        <td rowspan="2">Ch 3: Search Trees and Skip Lists</td>
+        <td><a href="slides/ch3-binarySearchTrees.pdf">Binary Search Trees</a></td>
+        <td><a href="examples/bst-insert.pdf">insert</a>, <a href="examples/bst-find.pdf">find</a>, <a href="examples/bst-remove.pdf">remove</a></td>
+        <td>3.1.1 - 3.1.6</td>
+        <td>9/12; 9/17</td>
+      </tr>
+      <tr>
+        <td><a href="slides/ch3-redBlackTrees.pdf">Red-Black Trees</a></td>
+        <td><a href="examples/rbt-insert.pdf">insert</a></td>
+        <td>3.3.3</td>
+        <td>9/19</td>
+      </tr>
+
+      <tr>
+        <td rowspan="6">Ch 4: Sorting, Sets, and Selection</td>
+         <td><a href="slides/ch4-mergeSort.pdf">Merge Sort</a></td>
+        <td><a href="examples/mergesort.pdf">merge sort</a></td>
+        <td>4.1.1</td>
+        <td>9/24</td>
+      </tr>
+      <tr>
+        <td><a href="slides/ch4-quickSort.pdf">Quick Sort</a></td>
+        <td><a href="examples/quicksort.pdf">quick sort</a></td>
+        <td>4.3.1, 4.6</td>
+        <td>9/26</td>
+      </tr>
+      <tr>     
+        <td><a href="slides/ch4-sortingLowerBound.pdf">Sorting Lower Bound</a></td>
+        <td></td>
+        <td>4.4</td>
+        <td>10/1</td>
+      </tr>
+      <tr>
+       <td><a href="slides/ch4-radixSort.pdf">Radix Sort</a></td>
+        <td><a href="examples/bucket-sort.pdf">bucket sort</a>, <a href="examples/radix-sort.pdf">radix sort</a></td>
+       <td>4.5.1, 4.5.2</td>
+       <td>10/1; 10/3</td>
+     </tr>
+     <tr>
+       <td><a href="slides/ch4-sets.pdf">Sets</a></td>
+        <td></td>
+       <td>4.2.1</td>
+       <td>10/3</td>
+     </tr>
+     <tr>
+       <td><a href="slides/ch4-selection.pdf">Selection</a></td>
+        <td><a href="examples/quick-select.pdf">quick select</a></td>
+       <td>4.7, 4.7.1 - 4.7.3</td>
+       <td>10/3; 10/8</td>
+     </tr>
+
+     <tr>
+      <td rowspan="3">Ch 5: Fundamental Techniques</td>
+      <td><a href="slides/ch5-greedyMethod.pdf">Greedy Method</a></td>
+        <td><a href="examples/knapsack-fractional.pdf">fractional knapsack</a>, <a href="examples/task-scheduling.pdf">task scheduling</a></td>
+      <td>5.1, 5.1.1, 5.1.2</td>
+      <td>10/22</td>
+    </tr>
+    <tr>
+      <td><a href="slides/ch5-divideAndConquer.pdf">Divide and Conquer</a></td>
+        <td><a href="examples/master-theorem.pdf">master theorem</a></td>
+      <td>5.2, 5.2.1 - 5.2.3</td>
+      <td>10/24; 10/29</td>
+    </tr>
+    <tr>
+      <td><a href="slides/ch5-dynamicProgramming.pdf">Dynamic Programming</a></td>
+        <td><a href="examples/matrix-chain-product.pdf">matrix chain product</a>, <a href="examples/knapsack-01.pdf">0-1 knapsack</a></td>
+      <td>5.3, 5.3.1 - 5.3.3</td>
+      <td>10/31; 11/5</td>
+    </tr>
+
+    <tr>
+      <td rowspan="5">Ch 6: Graphs</td>
+      <td><a href="slides/ch6-graphs.pdf">Graphs</a></td>
+        <td></td>
+      <td>6.1 - 6.2</td>
+      <td>11/5</td>
+    </tr>
+    <tr>
+     <td><a href="slides/ch6-dfs.pdf">Depth-First Search</a></td>
+        <td><a href="examples/dfs">dfs</a></td>
+     <td>6.3.1</td>
+     <td>11/7</td>
+   </tr>
+   <tr>
+    <td><a href="slides/ch6-bfs.pdf">Breadth-First Search</a></td>
+        <td><a href="examples/bfs">bfs</a></td>
+    <td>6.3.3</td>
+    <td>11/7</td>
+  </tr>
+  <tr>
+    <td><a href="slides/ch6-biconnectivity.pdf">Biconnectivity</a></td>
+        <td></td>
+    <td>6.3.2</td>
+    <td>11/12</td>
+  </tr>
+  <tr>
+   <td><a href="slides/ch6-digraphs.pdf">Directed Graphs</a></td>
+   <td></td>
+   <td>6.4.1, 6.4.2, 6.4.4</td>
+   <td>11/14</td>
+ </tr>
+ <tr>
+   <td rowspan="2">Ch 7: Weighted Graphs</td>
+   <td><a href="slides/ch7-shortestPaths.pdf">Shortest Paths</a></td>
+   <td><a href="examples/undirected-dijkstra.pdf">dijkstra (on undirected graph)</a>, <a href="examples/directed-dijkstra.pdf">dijkstra (on digraph)</a>, <a href="examples/dag-based-sp">dag-based</a>, <a href="examples/bellman-ford">bellman-ford</a></td>
+   <td>7.1, 7.1.1 - 7.1.3, 7.2, 7.2.1</td>
+   <td>11/19; 11/21</td>
+ </tr>
+ <tr>
+   <td><a href="slides/ch7-mst.pdf">Minimum Spanning Trees</a></td>
+   <td><a href="examples/prim">prim-jarnik</a>, <a href="examples/kruskal">kruskal</a></td>
+   <td>7.3, 7.3.1 - 7.3.3</td>
+   <td>11/26; 12/3</td>
+ </tr>
+
+ <tr>
+   <td rowspan="1">Ch 8: Network Flow and Matching</td>
+   <td><a href="slides/ch8-maxFlow.pdf">Network Flow</a></td>
+   <td><a href="examples/ford-fulkerson">ford-fulkerson</a>, <a href="examples/edmond-karp">edmond-karp</a></td>
+   <td>8.1.1, 8.1.2, 8.2.1 - 8.2.3</td>
+   <td>12/3; 12/5</td>
+ </tr>
+
+</table>
+</div>
+
+
+<div class="col-sm-4">
+
+  <h3>Homework</h3>
+
+  <p>  Clearly number your solution to each problem.
+    Staple your solutions and bring them to class on the due date.
+    Express your algorithms in pseudo-code when directed.
+    Always <b>provide justification</b> for your answer when asked to give the running time of an algorithm,
+    or when asked to given an algorithm running in a specific time.
+    Be brief and concise, and draw pictures where appropriate.
+  </p>
+  <p>
+    <ul>
+      <li><a href="hw/hw1.pdf">Homework #1</a> due Thu 9/5</li>         
+      <li><a href="hw/hw2.pdf">Homework #2</a> due Tue 9/17</li>
+      <li><a href="hw/hw3.pdf">Homework #3</a> due Thu 9/26</li>         
+      <li><a href="hw/hw4.pdf">Homework #4</a> due Tue 10/8</li>
+      <li><a href="hw/hw5.pdf">Homework #5</a> due Thu 11/7</li>
+      <li><a href="hw/hw6.pdf">Homework #6</a> due Tue 11/19</li>
+      <li><a href="hw/hw7.pdf">Homework #7</a> due Tue 12/3</li>
+    </ul>
+  </p>
+
+
+  <h3>Exams</h3>
+  <ol>
+
+    <li>
+      <b>Midterm Exam</b> (<a href="midterm-info.pdf">info</a>) (<a href="midterm-overview.pdf">overview</a>) <br/>
+    Thu 10/17, during class</br>
+    Topics include chapters 1-4.
+  </li>
+  <li>
+   <b>Final Exam</b> (<a href="final-info.pdf">info</a>) (<a href="final-overview.pdf">overview</a>) <br/>
+ Fri 12/13 @ 7:45am-10:00am</br>
+ Topics include chapters 5-8.
+</li>
+</ol>
+
+<h3>Piazza</h3>
+<p>
+  Sign up for <a href="https://piazza.com/class/jz486sv0i801iq">Piazza</a>, a Q&amp;A web service
+  where you can ask and answer questions related to the class.
+</p>
+
+</div>
+</div>
+
+
+<address>Heather M. Guarnera / <a href="mailto:hmichaud@kent.edu">hmichaud@kent.edu</a> </address>
+</div>
+</body>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-71001604-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</html>

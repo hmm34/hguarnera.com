@@ -11,6 +11,20 @@
     border: none;
 }
 
+/* head of the table */
+thead, th {
+  padding: 0 0px 0 15px;
+}
+
+/* body of the table */
+.td {
+  padding: 0 0px 0 5px;
+}
+
+.table-sm {
+  padding: 0 0px 0 5px;
+}
+
 /* Remove the navbar's default margin-bottom and rounded borders */ 
 .navbar {
   margin-bottom: 0;

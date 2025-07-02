@@ -1,7 +1,10 @@
 # .htmltest.yml
 DirectoryPath: ./out
 CheckExternal: true
+IgnoreFragments: true
 EnforceHTTP: false
 IgnoreAltMissing: true
 IgnoreEmptyHref: true
 Timeout: 10
+ExternalTimeout: 20
+LogLevel: 1

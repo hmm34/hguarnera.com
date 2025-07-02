@@ -21,8 +21,8 @@ jobs:
 
       - name: Install htmltest
         run: |
-          curl -s https://htmltest.wjdp.uk | bash
-          mv htmltest /usr/local/bin/htmltest
+          go install github.com/wjdp/htmltest@latest
+          echo "$HOME/go/bin" >> $GITHUB_PATH
 
       - name: Build static site
         run: |

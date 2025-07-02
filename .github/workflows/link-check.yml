@@ -1,0 +1,33 @@
+name: Link Checker
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  linkChecker:
+    runs-on: ubuntu-latest
+    name: Check for broken links
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install htmltest
+        run: |
+          curl -s https://htmltest.wjdp.uk | bash
+          mv htmltest /usr/local/bin/htmltest
+
+      - name: Build static site
+        run: |
+          npm ci
+          npm run build
+          npm run export
+
+      - name: Run HTML link checker
+        run: htmltest ./out

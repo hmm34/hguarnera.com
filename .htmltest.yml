@@ -1,0 +1,7 @@
+# .htmltest.yml
+DirectoryPath: ./out
+CheckExternal: true
+EnforceHTTP: false
+IgnoreAltMissing: true
+IgnoreEmptyHref: true
+Timeout: 10

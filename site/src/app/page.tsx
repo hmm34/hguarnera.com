@@ -57,7 +57,7 @@ export default function AcademicLandingPage() {
           <p className="text-lg">Assistant Professor of Computer Science</p>
           <div className="flex flex-wrap justify-center sm:justify-start gap-4 mt-2 text-blue-600 text-xl items-center">
             <a
-              href="/files/CV_Heather_Guarnera.pdf"
+              href="/HeatherGuarneraCV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 px-3 py-1 bg-blue-600 text-white rounded text-sm font-semibold hover:bg-blue-700 transition"

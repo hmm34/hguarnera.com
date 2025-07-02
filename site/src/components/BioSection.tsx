@@ -30,7 +30,7 @@ export default function BioSection() {
       A fun fact: My Erdõs number is 3 (Paul Erdõs → Dieter Kratsch → Feodor Dragan → Heather Guarnera).
 
       <br/><br/>
-      Beyond teaching and research, I enjoy family time with my spouse (a.k.a. "the other Dr. Guarnera") and our daughter - we love board games, video games, and movie nights.
+      Beyond teaching and research, I enjoy family time with my spouse Drew (a.k.a. "the other Dr. Guarnera") and our 3 year old daughter Parker - we love board games, video games, and movie nights.
       I also enjoy a good cup of coffee and any reason to get outdoors, but kayaking and birding are among my favorite.
     </p>
     

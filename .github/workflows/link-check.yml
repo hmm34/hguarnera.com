@@ -1,8 +1,9 @@
-name: Link Checker
+name: Weekly Link Checker
 
 on:
-  push:
-    branches: [main]
+  schedule:
+    - cron: '0 8 * * 1'   # Runs every Monday at 8 AM UTC
+  workflow_dispatch:      # Allow manual runs from GitHub UI
   pull_request:
 
 jobs:

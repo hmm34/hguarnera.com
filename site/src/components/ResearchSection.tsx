@@ -29,7 +29,7 @@ export default function ResearchSection() {
 	        {pub.authors.map((author, i) => (
 	          <span
 	            key={i}
-	            className={author.isStudent ? "text-blue-600 font-semibold" : ""}
+	            className={ 'isStudent' in author && author.isStudent === true ? "text-blue-600 font-semibold" : "" }
 	          >
 	            {author.name}
 	            {i < pub.authors.length - 1 ? "," : "."}{" "}

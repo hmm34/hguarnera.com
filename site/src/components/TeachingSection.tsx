@@ -36,22 +36,23 @@ export default function TeachingSection () {
 		      <div className="flex flex-wrap items-center gap-2">
 		        <span className="text-xs sm:text-sm text-right">
 		          {course.terms.map((entry, subIdx) => (
-		            <span key={subIdx}>
-		              {entry.link ? (
-		                <a
-		                  href={entry.link}
-		                  target="_blank"
-		                  rel="noopener noreferrer"
-		                  className="text-blue-600 hover:underline"
-		                >
-		                  {entry.term}
-		                </a>
-		              ) : (
-		                <span className="text-black dark:text-gray-300">{entry.term}</span>
-		              )}
-		              {subIdx < course.terms.length - 1 ? ", " : ""}
-		            </span>
-		          ))}
+				  <span key={subIdx}>
+				    {'link' in entry && entry.link ? (
+				      <a
+				        href={entry.link}
+				        target="_blank"
+				        rel="noopener noreferrer"
+				        className="text-blue-600 hover:underline"
+				      >
+				        {entry.term}
+				      </a>
+				    ) : (
+				      <span className="text-black dark:text-gray-300">{entry.term}</span>
+				    )}
+				    {subIdx < course.terms.length - 1 ? ", " : ""}
+				  </span>
+				))}
+
 		        </span>
 		        <InstitutionLogo institution={course.institution} />
 		      </div>
@@ -80,18 +81,19 @@ export default function TeachingSection () {
 		        <span className="text-xs sm:text-sm text-right">
 		          {course.terms.map((entry, subIdx) => (
 		            <span key={subIdx}>
-		              {entry.link ? (
-		                <a
-		                  href={entry.link}
-		                  target="_blank"
-		                  rel="noopener noreferrer"
-		                  className="text-blue-600 hover:underline"
-		                >
-		                  {entry.term}
-		                </a>
-		              ) : (
-		                <span className="text-black dark:text-gray-300">{entry.term}</span>
-		              )}
+		              { 'link' in entry && entry.link ? (
+						  <a
+						    href={entry.link as string}
+						    target="_blank"
+						    rel="noopener noreferrer"
+						    className="text-blue-600 hover:underline"
+						  >
+						    {entry.term}
+						  </a>
+						) : (
+						  <span className="text-black dark:text-gray-300">{entry.term}</span>
+						)}
+
 		              {subIdx < course.terms.length - 1 ? ", " : ""}
 		            </span>
 		          ))}

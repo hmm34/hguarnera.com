@@ -9,7 +9,8 @@ export const mentoring = [
     institution: "College of Wooster",
     terms: [
       { term: "Fa'24", },
-      { term: "Fa'25", }
+      { term: "Fa'25", },
+      { term: "Sp'26", }
     ]
   },
   {

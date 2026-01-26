@@ -19,8 +19,9 @@ export const courses = [
     terms: [
       { term: "Sp'22", link: "https://csweb.wooster.edu/hguarnera/cs200-spring22/" },
       { term: "Sp'23", link: "https://csweb.wooster.edu/hguarnera/cs200-spring23/" },
-      { term: "Sp'24", },
-      { term: "Sp'25", }
+      { term: "Sp'24", link: "https://csweb.wooster.edu/hguarnera/cs200-spring24/"},
+      { term: "Sp'25", link: "https://csweb.wooster.edu/hguarnera/cs200-spring25/"},
+      { term: "Sp'26", }
     ]
   },
   {

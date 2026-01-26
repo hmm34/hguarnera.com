@@ -1,8 +1,13 @@
 export const stemOutreach = [
   {
+    title: "VR Demo at Wooster High School",
+    description: "Coordinated effort with Wooster's Google Developer Group (WooGDG). We bring equipment from our VR lab to showcase and connect with young community members interested in computing.",
+    year: "2026",
+  },
+  {
     title: "Exploring STEM Day",
     description: "Workshops designed for 5th-8th grade girls in surrounding Wayne, Stark, and Holmes counties. The girls learned how to program ozobots to move around and perform various tasks (go fast, go slow, spin around).",
-    year: "2023, 2024, 2025",
+    year: "2023, 2024, 2025, 2026",
     link: "/outreach/2025-ozobots.pdf"
   },
   {

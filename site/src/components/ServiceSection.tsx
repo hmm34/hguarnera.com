@@ -91,6 +91,11 @@ export default function ServiceSection() {
         <ul className="space-y-1 text-gray-800 dark:text-gray-200">
           <li className="flex items-start justify-between">
           <div className="flex items-start gap-2">
+              <span>External reviewer for Transactions on Software Engineering (TSE)</span></div>
+            <span className="text-sm text-gray-600 dark:text-gray-400 whitespace-nowrap">2026</span>
+          </li>
+          <li className="flex items-start justify-between">
+          <div className="flex items-start gap-2">
               <span>External reviewer for Discussiones Mathematicae Graph Theory (DMGT)</span></div>
             <span className="text-sm text-gray-600 dark:text-gray-400 whitespace-nowrap">2020, 2022</span>
           </li>

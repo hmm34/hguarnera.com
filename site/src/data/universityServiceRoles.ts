@@ -56,7 +56,7 @@ export const universityServiceRoles = [
   },
   {
     title: "Strategic Planning & Priorities Advisory Committee (SPPAC)",
-    years: ["to begin in 2025"],
+    years: [2025, 2026],
     description: "The responsibility is to advise and counsel the President on strategic planning and the determination of resource allocation, to consult with campus constituencies on strategic planning and priorities, and to regularly apprise the faculty of issues under discussion."
   }
 

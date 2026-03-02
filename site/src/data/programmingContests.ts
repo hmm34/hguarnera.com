@@ -5,7 +5,7 @@ export const programmingContests = [
   },
   {
     contest: "Denison University Spring Programming Contest",
-    years: ["2022", "2023"],
+    years: ["2022", "2023", "2026"],
   },
   {
     contest: "ACM ECNA Intercollegiate Programming Contest",

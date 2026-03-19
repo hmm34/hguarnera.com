@@ -18,6 +18,11 @@ export const metadata = {
     'Homepage for Dr. Heather Guarnera, computer science professor and researcher in software ecosystems, algorithms, and inclusive computing.',
   authors: [{ name: 'Heather Guarnera' }],
   robots: 'index, follow',
+  icons: {
+    icon: `data:image/svg+xml,${encodeURIComponent(
+      "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐦‍⬛</text></svg>"
+    )}`,
+  },
 };
 
 export default function RootLayout({

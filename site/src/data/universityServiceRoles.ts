@@ -36,7 +36,7 @@ export const universityServiceRoles = [
   },
    {
     title: "Faculty Representative for aspiring CS club \"Black & Code\"",
-    years: [2025],
+    years: [2025, 2026],
     description: "Assist in setup for approval through student engagement office, advise on potential activities."
   },
   {
@@ -58,6 +58,21 @@ export const universityServiceRoles = [
     title: "Strategic Planning & Priorities Advisory Committee (SPPAC)",
     years: [2025, 2026],
     description: "The responsibility is to advise and counsel the President on strategic planning and the determination of resource allocation, to consult with campus constituencies on strategic planning and priorities, and to regularly apprise the faculty of issues under discussion."
+  },
+  {
+    title: "Certificate in AI & Critical Inquiry Working Group",
+    years: [2026],
+    description: "Draft proposal for new academic program in AI & Critical Inquiry Embedded Certificate."
+  },
+  {
+    title: "Chair of Department Faculty Review Committee",
+    years: [2026],
+    description: "Evaluate review materials for tenure track faculty in the department, conduct classroom visitations, write a department letter of recommendation to the promotion and tenure committee."
+  },
+  {
+    title: "Chair of Computer Science",
+    years: [2026],
+    description: "Point-person for all program-related questions, concerns, and operations. Manage operating budget and endowment funds, course scheduling, etc."
   }
 
 ];

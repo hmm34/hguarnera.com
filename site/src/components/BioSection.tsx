@@ -8,7 +8,7 @@ export default function BioSection() {
 
     { /* Bio Blurb */ }
     <p className="mb-4 text-gray-800 dark:text-gray-200">
-      I am an Assistant Professor of Computer Science at The College of Wooster.
+      I am an Associate Professor of Computer Science at The College of Wooster, and currently chair the Computer Science program.
       My research explores the intersection of graph theory and software engineering, particularly developing efficient graph mining and network analysis algorithms for large-scale software ecosystems.
       I am passionate about teaching and mentoring the next generation of computer scientists.
       { /* I am passionate about interdisciplinary collaboration and mentoring the next generation of computer scientists. 

@@ -10,7 +10,8 @@ export const mentoring = [
     terms: [
       { term: "Fa'24", },
       { term: "Fa'25", },
-      { term: "Sp'26", }
+      { term: "Sp'26", },
+      { term: "Fa'26", link: "https://csweb.wooster.edu/hguarnera/cs401-fall26/"}
     ]
   },
   {
@@ -22,7 +23,9 @@ export const mentoring = [
       { term: "Fa'21", },
       { term: "Fa'22", },
       { term: "Fa'23", },
-      { term: "Fa'24", }
+      { term: "Fa'24", },
+      { term: "Fa'25", }
+      { term: "Fa'26", }
     ]
   },
   {
@@ -34,7 +37,9 @@ export const mentoring = [
       { term: "Sp '22", },
       { term: "Sp '23", },
       { term: "Sp '24", },
-      { term: "Sp '25", }
+      { term: "Sp '25", },
+      { term: "Sp '26", },
+      { term: "Su '26", }
     ]
   },
   {

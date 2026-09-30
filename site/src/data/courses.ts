@@ -14,6 +14,13 @@ export const courses = [
     ]
   },
   {
+    name: "CSCI 199: Introduction to Game Development",
+    institution: "College of Wooster",
+    terms: [
+      { term: "Fa'26", link: "https://csweb.wooster.edu/hguarnera/cs199-fall26/" }
+    ]
+  },
+  {
     name: "CSCI 200: Algorithm Analysis",
     institution: "College of Wooster",
     terms: [
@@ -45,7 +52,8 @@ export const courses = [
   {
     name: "CSCI 399: Software Ecosystems",
     institution: "College of Wooster",
-    terms: [{ term: "Fa'24",  }]
+    terms: [{ term: "Fa'24",  },
+      { term: "Fa'26", link: "https://csweb.wooster.edu/hguarnera/cs399-fall26/"}]
   },
   {
     name: "MATH 223: Combinatorics and Graph Theory",
